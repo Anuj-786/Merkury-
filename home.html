@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Home</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="shortcut icon" type="image/png" href="img/user_menu_icon.png"/>
+	<link rel="stylesheet" type="text/css" href="css/index.css">
+	<script type="text/javascript" src='lib/jquery.js'></script>
+	<script type="text/javascript" src="js/custom.js"></script>
+	<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+	<!-- Compiled and minified CSS -->
+	<link rel="stylesheet" href="css/materialize.min.css">
+	<link rel="stylesheet" type="text/css" href="css/icon.css">
+	<!-- Compiled and minified JavaScript -->
+	<script src="js/materialize.js"></script>
+</head>
+<body class="home-page">
+	<div class="container">
+		<div class="side-nav-content">
+			<div class="side-logo">
+				<img class="responsive-img" src="img/logo.png">
+			</div>
+			<div class="menu_items">
+				<ul>
+					<li class="active"><img class="col m1" src="img/home_icon.png"><a href="#">Home</a></li>
+					<li><img src="img/menu_icon.png"><a href="workflow.html">Workflow</a></li>
+					<li><img src="img/statastics.png"><a href="statistics.html">Statistics</a></li>
+					<li><img src="img/calander.png"><a href="calendar.html">Calendar</a></li>
+					<li><img src="img/user_menu_icon.png"><a href="users.html">Users</a></li>
+					<li><img src="img/setting.png"><a href="settings.html">Settings</a></li>
+				</ul>
+			</div>
+		</div>
+		
+		<div class="home-right">
+			<div class="row">
+				<div class="col m12 col s12 tool-bar">
+					<div class="col m1 col s1 main-menu"><a href=""></a><i class="material-icons menu-icon">menu</i></div>
+					<div class="col m1 col s1"><a href=""><i class="material-icons icon">search </i></a></div>
+					<div class="col m2 offset-m5 col s2 offset-s5 add-project"><button class="waves-effect waves-light btn">+ Add Project</button></div>
+					<div class="col m1 message-icon"><a href=""><i class="material-icons icon">message</i></a></div>
+					<div class="col m1"><a href=""><i class="material-icons icon">notifications_active</i></a></div>
+					<div class="col m1 login-user"><img src="img/loggedin_user.png"></div>
+				</div>
+			</div>
+			<div class="right-contant" style="background: #F5F6FA">
+				<div class="row">
+					<div class="col m12">
+						<div class="col m6 col s6 username">Hello John!</div>
+					</div>
+					<div class="col m12 user-report">
+						<div class="col m4 sale-main">
+							<div class="your-sale">
+								<span>Your Sales</span>
+								<button>Period <span>Last year<span>	</button>
+							</div>
+							<div class="pi-chart">
+								<svg id="donut-chart"></svg>
+								<div class="dnout-pins">
+									<li><span style="background: #5384FD"></span>Websites</li>
+									<li><span style="background: #4A73DF"></span>Logo</li>
+									<li><span style="background: #24396C"></span>Social Media</li>
+									<li><span style="background: #3753A5"></span>Awards</li>
+									<li><span style="background: #4064C0"></span>E-Commerce</li>
+								</div>
+							</div>
+
+						</div>
+						<div class="col m8 report-main">
+							<div class="report-inner">
+								<div class="report">
+									<span>Your Sales</span>
+									<button>Period <span>Last year<span>	</button>
+								</div>
+								<div class="report-data">
+									<img class="responsive-img" src="img/pi_wave.png">
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<div class="row">
+					<div class="col m12 right-second">
+						<div class="col m4 task-conatiner">
+							<div class="task">
+								<div class="task-inner">
+									<div class="task-title">Task</div>
+									<div class="task-points"><span class="point-1"> 5</span><span class="point-2">2</span></div>
+								</div>
+								<div class="main-task">
+									<div class="taskname"><span>N</span></div>
+									<div class="task-des">
+										<span>New website for symu.co</span><br />
+										<img src="img/clock.png"><span class="last-date">5 days ddays</span>
+									</div>
+									<div class="task-menu"><img class="responsive-img" src="img/dotted_menu.png"></div>
+								</div>
+								<div class="main-task">
+									<div class="taskname"><span>F</span></div>
+									<div class="task-des">
+										<span>New website for symu.co</span><br />
+										<img src="img/clock.png"><span class="last-date">5 days ddays</span>
+									</div>
+									<div class="task-menu"><img src="img/dotted_menu.png"></div>
+								</div>
+								<div class="main-task">
+									<div class="taskname"><span>N</span></div>
+									<div class="task-des">
+										<span>New website for symu.co</span><br />
+										<img src="img/clock.png"><span class="last-date">5 days ddays</span>
+									</div>
+									<div class="task-menu"><img src="img/dotted_menu.png"></div>
+								</div>
+								<div class="main-task">
+									<div class="taskname"><span>F</span></div>
+									<div class="task-des">
+										<span>New website for symu.co</span><br />
+										<img src="img/clock.png"><span class="last-date">5 days ddays</span>
+									</div>
+									<div class="task-menu"><img src="img/dotted_menu.png"></div>
+								</div>
+							</div>
+						</div>
+						<div class="col m4 message-container">
+							<div class="user-message">
+								<div class="message-inner">
+									<div class="message-title">Messages</div>
+									<div class="message-points"><span class="point-1">2</span></div>
+								</div>
+								<div class="main-message" style="background: #F5F4F9">
+									<div class="user-image"><img src="img/user_nina_josh.png"></div>
+									<div class="sender-main">
+										<div class="sender"><span class="sender-name">Nina Jones</span><span class="sent-time">5 minutes ago</span></div>
+										<div class="sender-text">Hey you it's me again :)</div>
+										<div class="msg-setting"><img src="img/settings.png"></div>
+									</div>
+								</div>
+								<div class="main-message" style="background: #F5F4F9">
+									<div class="user-image"><img src="img/user_nina_josh.png"></div>
+									<div class="sender-main">
+										<div class="sender"><span class="sender-name">Nina Jones</span><span class="sent-time">5 minutes ago</span></div>
+										<div class="sender-text">Hey you it's me again :)</div>
+										<div class="msg-setting"><img src="img/settings.png"></div>
+									</div>
+								</div>
+								<div class="main-message">
+									<div class="user-image"><img src="img/user_james_smith.png"></div>
+									<div class="sender-main">
+										<div class="sender"><span class="sender-name">James Smith</span><span class="sent-time">5 minutes ago</span></div>
+										<div class="sender-text">Hey you it's me again :)</div>
+										<div class="msg-setting"><img src="img/settings.png"></div>
+									</div>
+								</div>
+								<div class="main-message">
+									<div class="user-image"><img src="img/user_nina_josh.png"></div>
+									<div class="sender-main">
+										<div class="sender"><span class="sender-name">Nina Jones</span><span class="sent-time">5 minutes ago</span></div>
+										<div class="sender-text">Hey you it's me again :)</div>
+										<div class="msg-setting"><img src="img/settings.png"></div>
+									</div>
+								</div>
+							</div>
+
+						</div>
+						<div class="col m4 activity-container">
+							<div class="activity">
+								<div class="activity-inner">
+									<div class="activity-title">Activity</div>
+									<div class="activity-points"><span class="point-1">9</span></div>
+								</div>
+								<div class="main-activity">
+									<div class="activity-image">
+										<img src="img/user_nina_josh.png">
+									</div>
+									<div class="activity-des">
+										<div class="activity-main-des"><span class="active-user-name">Nina James</span><span class="new-project">added a new project</span><span class="active-user-name">from ui kie</div>
+										<div class="activity-time">
+											<img src="img/clock.png">
+											<span class="new-project">just now</span>
+										</div>
+									</div>
+								</div>
+								<div class="main-activity">
+									<div class="activity-image">
+										<img src="img/user_james_smith.png">
+									</div>
+									<div class="activity-des">
+										<div class="activity-main-des"><span class="active-user-name">Nina James</span><span class="new-project">added a new project</span><span class="active-user-name">from ui kie</div>
+										<div class="activity-time">
+											<img src="img/clock.png">
+											<span class="new-project">just now</span>
+										</div>
+									</div>
+								</div>		
+								<div class="main-activity">
+									<div class="activity-image">
+										<img src="img/user_alex.png">
+									</div>
+									<div class="activity-des">
+										<div class="activity-main-des"><span class="active-user-name">Nina James</span><span class="new-project">added a new project</span><span class="active-user-name">from ui kie</div>
+										<div class="activity-time">
+											<img src="img/clock.png">
+											<span class="new-project">just now</span>
+										</div>
+									</div>
+								</div>		
+								<div class="main-activity">
+									<div class="activity-image">
+										<img src="img/user_nina_josh.png">
+									</div>
+									<div class="activity-des">
+										<div class="activity-main-des"><span class="active-user-name">Nina James</span><span class="new-project">added a new project</span><span class="active-user-name">from ui kie</div>
+										<div class="activity-time">
+											<img src="img/clock.png">
+											<span class="new-project">just now</span>
+										</div>
+									</div>
+								</div>				
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		
+	</div>
+	<script src="js/d3.min.js"></script>
+	<script type="text/javascript" src="js/pichart.js"></script>
+</body>
+</html>

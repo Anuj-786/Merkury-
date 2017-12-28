@@ -1,0 +1,598 @@
+/*css for login page*/
+.login-page {
+	background: url('img/background.png');
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+.login-page .container {
+	width: 58%;
+	margin: 0 auto;
+	position: relative;
+	top: 10px;
+}
+.login-page nav {
+	height: 85px;
+	background-color: #0E1935;
+}
+.login-page .brand-logo img {
+	height: 40px;
+	width: 140px;
+	margin-left: 25px;
+	margin-top: 22px;
+}
+.login-page .nav-wrapper .side-nav-content {
+	line-height: 80px;
+}
+.login-page .nav-wrapper .side-nav-content li .active {
+	border-bottom: 5px solid #5284FF;
+	padding: 0px 30px;
+}
+.login-page .login-wrapper {
+	margin: 0px !important;
+	padding: 0px !important;
+	background-color: #F5F6FA;
+	text-align: center;
+}
+.login-page .login-wrapper .welcome-heading {
+	padding: 40px;
+	font-size: 25px;
+}
+.login-page .login-wrapper .welcome-heading .welcome {
+	color: #B3BCCA;
+}
+.login-page .login-wrapper .welcome-heading .back {
+	color: #6487EE;
+}
+.login-page .login-wrapper .login {
+	padding-bottom: 40px;
+}
+.login-page .login-wrapper .login .input-field {
+	width: 100%;
+}
+.login-page .login-wrapper .login .input-field .username, .login-page .login-wrapper .login .input-field .password  {
+	width: 50%;
+	margin-bottom: 10px;
+	float: none;
+	display: inline-block;
+	border-bottom: 1px solid #B3BCCA;
+	padding: 0px;
+}
+.login-page .login-wrapper .login .input-field input {
+	width: 100%;
+	margin: 0px;
+	border: 0;
+	
+}
+.login-page .login-wrapper .login .input-field img {
+	height: 15px;
+	margin-top: 15px;
+	margin-right: 0px;
+}
+.login-page .login-wrapper .login .input-field input[type=text]:focus {
+	border-bottom: 0px;
+	box-shadow: none;
+}
+
+.login-page .login-wrapper .enter {
+	padding: 20px;
+	text-align: center;
+	float: none;
+	display: inline-block;
+	padding-bottom: 60px;
+}
+.login-page .login-wrapper .enter a {
+	padding: 0px 90px;
+	border-radius: 30px;
+	border: none;
+	background: #5485FE;
+	color: #ffffff;
+}
+/*css for home page */
+.home-page nav {
+	background: #ffffff;
+}
+.home-page nav a {
+	color: #000000;
+}
+.home-page .main-menu {
+	text-align: center;
+}
+.home-page .home-right .tool-bar {
+	height: 50px;
+	padding: 10px 0px 0px 0px;
+	border-bottom: 1px solid lightgrey;
+}
+.home-page .home-right .tool-bar .menu-icon  {
+	margin-top: 3px;
+}
+.home-page .home-right .tool-bar .icon {
+	margin-top: 4px;
+	color: #000000;
+}
+.home-page .home-right .tool-bar .message-icon {
+	text-align: center;
+}
+.home-page .home-right .row {
+	margin: 0;
+}
+.home-page .home-right .add-project button {
+	height: 25px;
+	line-height: 25px;
+	border-radius: 16px;
+	background: #5485fe;
+	padding: 0 1rem;
+	text-transform: lowercase;
+	font-size: 12px;
+}
+.home-page .home-right .login-user img {
+	width: 28px;
+	height: 28px;
+	border-radius: 16px;
+}
+.home-right {
+	width: 85%;
+}
+.your-sale span, .report span {
+	font-weight: bold;
+	color: #1565c0;
+}
+.your-sale button, .report button {
+	float: right;
+	border-radius: 15px;
+	margin: 0;
+	font-size: 12px;
+	box-shadow: none;
+	border: 1px solid lightgrey;
+	padding: 3px 10px;
+	background: transparent;
+}
+.sale-main, .report-inner {
+	background: #ffffff;
+	padding: 15px 8px 0px 10px !important;
+}
+.sale-main .pi-chart {
+	display: flex;
+	width: 100%;
+	margin-top: 20px;
+}
+.pi-chart .dnout-pins {
+	padding-top: 35px;
+}
+.pi-chart .dnout-pins li {
+	font-size: 11px;
+	list-style: none;
+	color: #1565c0;
+}
+.pi-chart .dnout-pins li span {
+	padding: 0px 0px 0px 7px;
+	border-radius: 4px;
+	font-size: 5px;
+	position: relative;
+	bottom: 2px;
+	margin-right: 10px;
+}
+.report-data {
+	padding: 30px 0px 12px 0px;`
+}
+.right-contant .username {
+	font-size: 20px;
+	padding: 10px !important;
+}
+.right-second {
+	margin-top: 15px;
+}
+.task-conatiner {
+	padding-left: 0px !important;
+	padding-bottom: 10px !important;
+}
+.task, .user-message, .activity {
+	background: #ffffff;
+	border: 1px solid lightgrey;
+	
+}
+.task .task-inner .task-title, .user-message .message-inner .message-title, .activity .activity-inner .activity-title  {
+	font-size: 14px;
+	font-weight: 600;
+}
+.task .task-inner .task-points .point-1, .user-message .message-inner .message-points .point-1, .activity .activity-inner .activity-points .point-1 {
+	background: #5485FE;
+	color: #ffffff;
+	padding: 2px 6px 2px 6px;
+	font-size: 14px;
+	border-radius: 10px;
+}
+.task .task-inner .task-points .point-2 {
+	background: #F53C7B;
+	color: #ffffff;
+	padding: 2px 6px 2px 6px;
+	font-size: 14px;
+	border-radius: 10px;
+	margin-left: 5px;	
+}
+.task-inner, .message-inner, .activity-inner, .main-task, .main-activity, .workflow-right .todo {
+	display: flex;
+	justify-content: space-between; 
+	border-bottom: 1px solid #ECEDF1;
+	padding: 5px 15px 5px 15px;
+}
+.main-message {
+	display: flex;
+	border-bottom: 1px solid #ECEDF1;
+	padding: 4px 15px 4px 15px;
+}
+.task .taskname, .workflow-right .todo .todo-name {
+	margin-top: 8px;
+}
+.task .taskname span, .workflow-right .todo .todo-name span  {
+	background: #5485FE;
+	color: #ffffff;
+	padding: 2px 5px 2px 5px;
+	font-size: 14px;
+	border-radius: 10px;
+}
+.task .task-des, .workflow-right .todo .todo-des {
+	line-height: 1.2;
+}
+.task .task-des span, .todo .todo-des span  {
+	font-size: 12px;
+	font-weight: 600;
+}
+.task .task-des img, .todo .todo-des img {
+	height: 8px;
+	margin-right: 5px;
+	margin-top: 4px;
+}
+.task .task-menu img, .todo .todo-menu img {
+	height: 15px;
+	margin-top: 10px;
+}
+.task .main-task .last-date {
+	color: #F53C7B;
+	font-size: 10px;
+}
+.user-message .main-message {
+	line-height: 1;
+}
+.user-message .main-message .user-image img, .activity .main-activity .activity-image img {
+	height: 20px;
+	width: 20px;
+	border-radius: 11px;
+	margin-top: 10px;
+}
+.message-container {
+	padding-left: 0px !important;
+}
+.user-message .main-message .sender-main {
+	margin-left: 10px;
+}
+.user-message .main-message .sender .sender-name, .activity-des .active-user-name {
+	font-size: 8px;
+	font-weight: bold;
+}
+.user-message .main-message .sender .sent-time {
+	font-size: 6px;
+	color: gray;
+	margin-left: 5px;
+}
+.user-message .main-message .sender-main .sender-text {
+	font-size: 8px;
+}
+.user-message .main-message .sender-main .msg-setting img {
+	height: 10px;
+	width: 10px;
+}
+.activity-container {
+	padding-left: 0px !important;
+}
+.activity-container .main-activity {
+	line-height: 1.2;
+}
+.activity-des .new-project {
+	font-size: 8px; 
+	color: gray;
+	margin-left: 3px;
+	margin-right: 3px;
+}
+.activity-des .activity-time {
+	display: inline-flex;
+}
+.activity-des .activity-time img {
+	height: 9px;
+}
+
+/*css for workflow page */
+.workflow-right {
+	margin-top: 25px;
+	padding-bottom: 88px !important;
+}
+.workflow-right .workflow-main .workflow-title-main {
+	display: flex;
+	justify-content: space-between;
+	
+}
+.workflow-main .workflow-title {
+	font-weight: bold;
+}
+.workflow-main .workflow-title span {
+	color: gray;
+}
+.workflow-right .todo {
+	background: #ffffff;
+	border: 1px solid lightgray;
+	margin: 10px 3px;
+}
+.workflow-right .todo .last-date {
+	font-size: 10px;
+}
+.workflow-right .todo .todo-des .last-date-red {
+	color: #F53C7B;
+	font-size: 10px;
+}
+.workflow-right .todo .todo-des .last-date-green {
+	color: green;
+}
+/*css for statistics page*/ 
+.statastics-conatiner {
+	padding-bottom: 30px;
+} 
+.statastics-main {
+	margin-top: 15px;
+}
+.statastics-main .stat {
+	font-weight: 600;
+}
+.statastics-main .period-button, .statastics-main .notifications-button {
+	font-size: 8px;
+	border: 1px solid lightgray;
+	border-radius: 12px;
+	padding: 4px 5px !important;
+	color: gray;
+	cursor: pointer;
+}
+.statastics-main .period-button::after, .statastics-main .notifications-button::after {
+	color: #444;
+	content: ' ▾';
+	float: right;
+}
+.statastics-main .period-button span, .statastics-main .notifications-button span {
+	font-weight: 600;
+	color: #000000;
+} 
+.statastics-main .stat-period, .statastics-main .stat-notification {
+	padding-left: 0px !important;
+}
+.statastics-data {
+	margin-top: 15px;
+}
+.state-main .active-users, .progress-main .active-users {
+	font-weight: 600;
+	color: #7C819D;
+}
+.statastics-data .state-data-inner, .stat-progress  {
+	background: #ffffff;
+	border: 1px solid lightgray;
+}
+.stat-progress {
+	margin-top: 15px;
+	padding: 15px 10px 40px !important;
+} 
+.stat-data-left .state-main, .stat-progress .progress-main {
+	display: flex;
+	justify-content: space-between;
+	padding: 10px 20px;
+}
+.stat-data-left .state-main .state-title span, .stat-progress .progress-title span  {
+	border: 1px solid lightgray;
+	border-radius: 15px;
+	padding: 3px 4px;
+	margin: 3px;
+	cursor: pointer;
+}
+.statastics-data .stat-data-right div {
+	border: 1px solid lightgray;
+}
+.stat-data-left .state-main .state-title span i, .stat-progress .progress-title span i {
+	font-size: 16px;
+}
+.stat-data-left .stat-report-data {
+	padding: 9px 20px 11px 5px;
+} 
+.stat-progress .sale-in-doller {
+	text-align: center;
+	font-size: 11px;
+	font-weight: bold;
+	line-height: 1.1;
+	margin-top: 30px;
+	color: #7C819D;
+}
+/* css for calendar page*/
+.calendar-main {
+	margin-top: 15px;
+}
+.calendar-main .fc-header-toolbar .fc-left h2 {
+	font-size: 15px;
+	font-weight: bold;
+}
+.calendar-main .fc-toolbar.fc-header-toolbar {
+	margin-bottom: 0px;
+}
+.calendar-main .fullcalander .fc-view-container {
+	background: #ffffff;
+	margin-top: 15px;
+} 
+.calendar-main .fullcalander .fc-view-container .fc-widget-content .fc-content-skeleton thead {
+	border-bottom: none;
+}
+.fc-basic-view .fc-body .fc-row {
+	height: 70px !important;
+}
+.fc-basic-view .fc-body .fc-day-grid-container {
+	height: 100% !important;
+}
+.fc button {
+	height: 1.5em !important;
+}
+.fc-ltr .fc-basic-view .fc-day-top .fc-day-number {
+	float: left !important;
+	margin-left: 10px;
+	margin-top: 10px;
+}
+
+/*css for users page*/
+.users-main {
+	    padding: 0px 25px 0px 25px !important;
+}
+.users-main table tbody {
+	background: #ffffff;
+}
+.users-main table tbody tr .users-img {
+	float: left;
+}
+.users-main table tbody tr .users-img img {
+	height: 35px;
+	width: 35px;
+	border-radius: 20px;
+	float: left;
+
+}
+.users-main table thead tr th {
+	font-size: 12px;
+	color: gray;
+}
+.users-main table tbody tr .users-name {
+	display: inline-block;
+	margin-left: 10px;
+	font-size: 10px;
+	font-weight: bold;
+	line-height: 1.3;
+	margin-top: 5px;
+}
+.users-main table tbody tr .users-name .occupation, .users-total {
+	color: lightgray;
+}
+.users-main table tbody tr .user-status img {
+	height: 13px;
+}
+.users-main table tbody tr .user-status span {
+	font-size: 12px;
+	color: green;
+	font-weight: bold;
+	bottom: 2px;
+	position: relative;
+	left: 5px;
+}
+.users-main table tbody tr .user-email, .users-main table tbody tr .user-phone {
+	font-size: 12px;
+	font-weight: bold;
+}
+.users-main table tbody tr {
+	border: 1px solid lightgray
+}
+.users-main table tbody tr  td {
+	border-left: 1px solid lightgray;
+	padding: 10px;
+}
+.users-main table tbody tr .user-menu img {
+	height: 15px;
+	margin-top: 2px;
+}
+.users-main table tbody tr .user-menu {
+	    padding: 15px;
+    text-align: center;
+}
+.user-pagination .pagination {
+	text-align: center;
+}
+.user-pagination .pagination li a {
+	font-size: 12px;
+} 
+.user-pagination .pagination li a i {
+	color: #5383FF;
+}
+.pagination li.active {
+	background: none !important;
+}
+.pagination li.active a {
+	color: #5383FF !important;
+}
+/*pi chart css*/
+svg#donut-chart {
+	display: block;
+	float: left;
+	position: relative;
+	right: 10px;
+}
+
+text.inner-circle {
+	font-weight: 400;
+	font-size: 20px;
+	text-transform: uppercase;
+}
+
+.arc {
+	cursor: pointer;
+}
+.arc text {
+	font-weight: 300;
+	font-size: 18px;
+	color: #fff;
+}
+/*css for sidebar*/
+.side-nav-content .side-logo {
+	text-align: center;
+}
+.side-nav-content .side-logo img {
+	height: 24px;
+	width: 90px;
+	margin-top: 15px
+}
+/*.side-nav-content li {
+	padding-left: 30px;
+	margin-bottom: 5px;
+}
+.side-nav-content li a {
+	color: #ffffff;
+}
+.side-nav-content li img {
+	float: left;
+	width: 14px;
+	margin-top: 17px;
+	}*/
+	.side-nav-content .menu_items ul {
+		margin-top: 18px;
+	}
+	.side-nav-content .menu_items ul li {
+		height: 40px;
+		padding-left: 25px;
+		line-height: 2.5;
+	}
+	.side-nav-content .menu_items ul li img {
+		height: 10px;
+	}
+	.side-nav-content .menu_items ul a {
+		color: #ffffff;
+		font-size: 12px;
+		padding-left: 10px;
+	}
+	.side-nav-content .menu_items .active {
+		background: #122043;
+		border-left: 5px solid #5284FF;
+		padding-left: 20px;
+	}
+
+	@media only screen and (min-width: 768px) {
+		.container {
+			display: flex;
+			flex-wrap: wrap;
+			margin-top: 50px !important;
+			box-shadow: 2px 6px 60px -10px;
+		}
+		.side-nav-content {
+			background-color: #0E1935;
+			flex: 0 0 15%;		
+		}
+		.home-right {
+			flex: 0 0 85%;
+		}
+	}
